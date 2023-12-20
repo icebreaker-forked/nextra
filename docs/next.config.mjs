@@ -1,7 +1,7 @@
 import nextra from 'nextra'
 
 const withNextra = nextra({
-  theme: 'nextra-theme-docs',
+  theme: '@icebreakers/nextra-theme-docs',
   themeConfig: './theme.config.tsx',
   latex: true,
   flexsearch: {
