@@ -74,5 +74,9 @@
   },
   "sideEffects": [
     "./src/polyfill.ts"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }
