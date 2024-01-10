@@ -68,7 +68,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        dark: '#111'
+        dark: 'rgba(var(--ice-base-100) / <alpha-value>)'
       }
     }
   },
